@@ -65,4 +65,3 @@ export const extendUsersSettings = (users) => {
     return user;
   });
 };
-  
