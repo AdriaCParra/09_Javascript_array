@@ -54,3 +54,13 @@ const USERS = [
     isEnabled: true
   },];
  */
+
+export const extendUsersSettings = (users) => {
+  return users.map((user, index) => {
+    return {
+      ...user,
+      id: index,
+      isEnabled: true,
+    };
+  });
+};
