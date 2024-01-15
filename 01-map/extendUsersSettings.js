@@ -56,8 +56,8 @@ const USERS = [
  */
 
 export const extendUsersSettings = (users) => {
-  return users.map((user) => {
-    const userID = users.indexOf(user);
+  return users.map((user, index) => {
+    const userID = index;
 
     user.id = userID;
     user.isEnabled = true;
@@ -65,3 +65,4 @@ export const extendUsersSettings = (users) => {
     return user;
   });
 };
+  
