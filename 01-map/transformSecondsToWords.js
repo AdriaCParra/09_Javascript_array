@@ -9,5 +9,3 @@ const SECONDS = [2, 5, 100];
 export const transformSecondsToWords = (seconds) => {
   return seconds.map((second) => second.toString());
 };
-
-console.log(transformSecondsToWords(SECONDS));
