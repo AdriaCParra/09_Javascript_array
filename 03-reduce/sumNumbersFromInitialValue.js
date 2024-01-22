@@ -7,3 +7,9 @@
  */
 
 const NUMBERS = [1, 2, 3, 4, 5];
+
+export const sumNumbersFromInitialValue = (numbers, initialValue) => {
+  return numbers.reduce((acc, number) => {
+    return acc + number;
+  }, initialValue);
+};
