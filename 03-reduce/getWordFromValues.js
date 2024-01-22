@@ -11,5 +11,3 @@ export const getWordFromValues = (values) => {
     return acc + value;
   }, "");
 };
-
-console.log(getWordFromValues(VALUES));
